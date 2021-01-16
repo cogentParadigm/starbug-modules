@@ -31,7 +31,7 @@ class Configuration {
 
   public function getEnabled() {
     return array_filter($this->modules, function ($module) {
-      return $module["enabled"];
+      return $module["enabled"] ?? false;
     });
   }
 
