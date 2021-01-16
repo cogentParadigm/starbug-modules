@@ -1,0 +1,23 @@
+{
+  "name": "starbug/modules",
+  "description": "A very simple module management layer.",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Ali Gangji",
+      "homepage": "https://github.com/cogentParadigm"
+    }
+  ],
+  "require": {
+    "composer/installers": "^1.10",
+    "starbug/composer-modules-plugin": "^0.8"
+  },
+  "require-dev": {
+    "starbug/devel": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Starbug\\Modules\\": "src/"
+    }
+  }
+}
