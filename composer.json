@@ -10,7 +10,7 @@
   ],
   "require": {
     "composer/installers": "^2.3.0",
-    "starbug/composer-modules-plugin": "^0.8"
+    "starbug/composer-modules-plugin": "^1.0"
   },
   "require-dev": {
     "starbug/devel": "^1.0"
