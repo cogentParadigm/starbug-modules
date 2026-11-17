@@ -35,6 +35,10 @@ class Configuration {
     });
   }
 
+  public function isEnabled($module): bool {
+    return $this->modules[$module]["enabled"] ?? false;
+  }
+
   public function getModules() {
     return $this->modules;
   }
